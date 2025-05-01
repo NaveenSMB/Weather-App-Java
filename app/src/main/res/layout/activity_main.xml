@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#34BFFD"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/weather" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Know the Weather ;)"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:textStyle="bold"
+
+        />
+    <EditText
+        android:id="@+id/cityName"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        android:background="#5194C8"
+        android:hint="Enter city"
+        android:textColorHint="@color/black"
+        android:textColor="#ffffff"
+        android:textSize="40dp"
+        android:textAlignment="center"
+
+        />
+
+    <Button
+        android:id="@+id/search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="230dp"
+        android:layout_marginRight="10dp"
+        android:text="Search"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:id="@+id/weather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Weather details"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+
+        />
+
+</RelativeLayout>
