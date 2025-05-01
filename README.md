@@ -51,3 +51,8 @@ Replace the API key in MainActivity.java:
 
 url = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=YOUR_API_KEY";
 Run the app on an emulator or physical device.
+
+💡 Notes
+This app currently parses the "main" JSON object only.
+
+All values are returned in Kelvin as per OpenWeatherMap’s default. Consider converting them for better user experience
